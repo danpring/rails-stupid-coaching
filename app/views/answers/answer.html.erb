@@ -1,0 +1,9 @@
+<body class="d-flex h-100 text-center text-white bg-dark">
+  <main class="container">
+    <div class="my-3 p-3 bg-white rounded shadow-sm">
+      <p class="d-block text-muted pb-3 border-bottom d-block text-gray-dark"><%= params[:question]%> <strong>- You</strong></p>
+      <p class="d-block text-muted pb-3 border-bottom d-block text-gray-dark"><%= @answer %> <strong>- Coach</strong><p>
+      <%= link_to "Ask another question", "/ask" %>
+    </div>
+  </main>
+</body>
